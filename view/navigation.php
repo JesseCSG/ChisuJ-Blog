@@ -1,4 +1,9 @@
 <?php
+    require_once (__DIR__ . "/../model/config.php");
+?>
 
-/* 
- * To change this 
+<nav>
+    <ul>
+        <li><a href="<?php echo $path . "posts.php"; ?>">Blog Post Form</a></li>
+    </ul>
+</nav>
