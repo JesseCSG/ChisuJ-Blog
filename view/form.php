@@ -4,7 +4,7 @@
 
 <h1>Create Blog Post</h1>
 
-<form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
+<form class="form" method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>
         <label for="title">Title: </label>
         <input type="text" name="title"/>
@@ -16,7 +16,7 @@
     </div>
     
     <div>
-        <button type="submit">Submit</button>
+        <button type="submit" class="buttonA">Submit</button>
     </div>
 </form>
 
