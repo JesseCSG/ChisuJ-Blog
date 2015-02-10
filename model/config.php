@@ -1,4 +1,10 @@
 <?php
 
-$path = "/ChiSuJesse-Blog/";
+    $path = "/ChiSuJesse-Blog/";
+
+    $host = "localhost";
+    $username = "root";
+    $password = "root";
+    $database = "blog_db";
+    
 
