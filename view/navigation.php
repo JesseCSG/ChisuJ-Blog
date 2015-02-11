@@ -2,8 +2,14 @@
     require_once (__DIR__ . "/../model/config.php");
 ?>
 
-<nav>
+<nav class="Nav2">
     <ul>
-        <li><a href="<?php echo $path . "post.php"; ?>">Blog Post Form</a></li>
+        
+    </ul>
+</nav>
+
+<nav class="Nav1">
+    <ul>
+        <li><a class="blogPost" href="<?php echo $path . "post.php"; ?>">Blog Post Form</a></li>
     </ul>
 </nav>

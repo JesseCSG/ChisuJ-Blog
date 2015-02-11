@@ -1,5 +1,13 @@
-
 .body {
     color: black;
-    background-image: url(http://www.whitewallpaper.org/backgrounds/white-blanket-647343.jpeg);
+}
+
+.Nav1 {
+    border: black solid 2px;
+}
+
+.blogPost {
+    color: black;
+    background-color: cadetblue;
+    margin-top: 8px;
 }
