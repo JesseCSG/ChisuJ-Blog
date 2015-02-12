@@ -14,5 +14,5 @@
         echo "<p>$connection->error</p>";
     }
 
-    $connection->close();
+   
     
