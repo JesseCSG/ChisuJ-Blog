@@ -9,6 +9,7 @@
     $password = "root";
     $database = "blog_db";
     
+    //Routes the config.php to Database.php
     if (!isset($_SESSION["connection"])) {
         $connection = new Database($host, $username, $password, $database);
         $_SESSION["connection"] = $connection;
