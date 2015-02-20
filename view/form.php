@@ -12,7 +12,7 @@
     
     <div>
         <label for="post">Post: </label>
-        <textarea type="post"></textarea>
+        <textarea type="post" name="post"></textarea>
     </div>
     
     <div>
