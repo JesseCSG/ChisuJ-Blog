@@ -1,3 +1,8 @@
+<div class="col-xs-2">
+    
+</div>
+
+<div class="col-xs-10">
 <?php
 
     require_once (__DIR__ . "/../model/config.php");
@@ -30,4 +35,6 @@
     else{
         echo "<p>" . $_SESSION["connection"]->error . "/p>";
     }
+    ?>
+</div>
     
