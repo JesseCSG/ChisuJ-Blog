@@ -7,7 +7,7 @@
         require_once (__DIR__ . "/view/form.php");        
     } 
     else {        
-        echo "you need to sign in to access this page";        
+        echo "You need to Sign In";        
     }
     
     require_once (__DIR__ . "/view/footer.php");

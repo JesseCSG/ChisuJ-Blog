@@ -1,4 +1,4 @@
-<div class="col-xs-10">
+<div class="col-xs-12">
 <?php
 
     require_once (__DIR__ . "/../model/config.php");
@@ -29,7 +29,7 @@
         echo "<p>Successfully created table: users</p>";
     }
     else{
-        echo "<p>" . $_SESSION["connection"]->error . "/p>";
+        echo "<p>" . $_SESSION["connection"]->error . "</p>";
     }
     ?>
 </div>

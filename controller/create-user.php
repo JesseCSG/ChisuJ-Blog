@@ -4,7 +4,7 @@
     
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
-    $password = filter_input(INPUT_POST, "PASSWORD", FILTER_SANITIZE_STRING);
+    $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
     
     echo $password;
 

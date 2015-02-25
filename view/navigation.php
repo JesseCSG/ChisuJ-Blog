@@ -8,18 +8,15 @@
 <div class="col-xs-12">
             <nav>
                 <ul>
+                    <a class="blogPost" href="<?php echo $path . "index.php"; ?>">Main Page</a>-|-
                     
-                    <li><a class="blogPost" href="<?php echo $path . "index.php"; ?>">Main Page</a></li>
+                    <a class="blogPost" href="<?php echo $path . "post.php"; ?>">Post Blogs Here</a>-|-
+                                    
+                    <a class="blogPost" href="<?php echo $path . "login.php"; ?>">Sign In</a>-|-
                     
-                    <li><a class="blogPost" href="<?php echo $path . "register.php"; ?>">Registration</a></li>
-                
-                    <li><a class="blogPost" href="<?php echo $path . "login.php"; ?>">Login</a></li>
+                    <a class="blogPost" href="<?php echo $path . "/controller/logout-user.php"; ?>">Log-Out</a>-|-
                     
-                    <li><a class="blogPost" href="<?php echo $path . "logout-user.php"; ?>">Logout</a></li>
-                    
-                    <li><a class="blogPost" href="<?php echo $path . "post.php"; ?>">Blog Post Form</a></li>
-    
-                </ul>
-                
+                    <a class="blogPost" href="<?php echo $path . "register.php"; ?>">Register</a>                       
+                </ul>                
             </nav>
 </div>

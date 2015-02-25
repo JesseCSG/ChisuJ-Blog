@@ -1,5 +1,6 @@
 .body {
-    color: black;
+    color: honeydew;
+    background-image: url(http://bonesolutions.net/wp-content/uploads/slider-images/48076.jpg);
 }
 
 .Nav1 {
@@ -7,12 +8,6 @@
 }
 
 .blogPost {
-    color: black;
-    background-color: cadetblue;
-    margin-top: 8px;
-}
-
-.buttonA {
     background-color: lightblue;
     font-style: italic;
     text-decoration: dashed;
