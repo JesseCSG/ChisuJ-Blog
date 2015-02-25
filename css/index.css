@@ -11,3 +11,11 @@
     background-color: cadetblue;
     margin-top: 8px;
 }
+
+.buttonA {
+    background-color: lightblue;
+    font-style: italic;
+    text-decoration: dashed;
+    font-size: medium;
+    border: blue double medium;
+}

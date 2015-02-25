@@ -9,6 +9,7 @@
 
     if($query) {
         echo "<p>Successfully inserted post: $title</p>";
+        
     }
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
