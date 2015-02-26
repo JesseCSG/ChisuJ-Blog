@@ -8,6 +8,7 @@
     $query = $_SESSION["connection"]->query("INSERT INTO posts SET title = '$title', post = '$post'");
 
     if($query) {
+        header("Location: " . $path . "index.php");
         echo "<p>Successfully inserted post: $title</p>";
         
     }

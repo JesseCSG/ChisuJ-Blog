@@ -9,8 +9,13 @@
 
 .blogPost {
     background-color: lightblue;
+    text-align: center;
     font-style: italic;
     text-decoration: dashed;
     font-size: medium;
     border: blue double medium;
+}
+
+.Text {
+    color: darkblue;
 }

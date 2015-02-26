@@ -15,11 +15,12 @@
             
             $_SESSION["authenticated"] = true;
             
+            header("Location: " . $path . "index.php");
             echo "<p> Login Successful! </p>";
         } else {
-            echo "<p> Login Invalid: Invalid username and password1. </p.";
+            echo "<p> Login Invalid: Invalid username and password. </p.";
         }
     }
     else {
-        echo "<p> Login Unsuccessful: Invalid username and password2. </p>";
+        echo "<p> Login Unsuccessful: Invalid username and password. </p>";
     }

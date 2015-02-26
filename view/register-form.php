@@ -8,20 +8,20 @@
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div>
         <label for="email">Email: </label>
-        <input type="text" name="email"/>
+        <input class="blogPost" type="text" name="email"/>
     </div>
     
     <div>
         <label for="username">Username: </label>
-        <input type="text" name="username"/>
+        <input class="blogPost" type="text" name="username"/>
     </div> 
     
     <div>
         <label for="password">Password: </label>
-        <input type="password" name="password"/>
+        <input class="blogPost" type="password" name="password"/>
     </div>
     
     <div>
-        <button type="submit">Submit</button>
+        <button class="blogPost" type="submit">Submit</button>
     </div>
 </form>

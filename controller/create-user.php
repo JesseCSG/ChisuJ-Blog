@@ -19,6 +19,7 @@
              . "salt = '$salt'");
     
      if ($query) {
+         header("Location: " . $path . "index.php");
         echo ("Successfully created username: $username");
         
      }
