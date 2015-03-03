@@ -6,7 +6,7 @@ require_once (__DIR__ . "/../controller/login-verify.php");
 
 <div class="col-xs-12">
     <!-- The navigation bar for the blog  -->
-    <nav class="nav1">
+    <nav class="nan nav-tabs">
         <ul>
             <!-- All links to Index, Post, Login, Logout-user, and Register Phps -->
             <a class="blogPost" href="<?php echo $path . "index.php"; ?>">Main Page</a>>-<
